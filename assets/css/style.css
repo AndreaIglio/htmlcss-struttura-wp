@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* CLASSI UTILITY */
+
+.float_left {
+  float: left;
+}
+
+.text_white {
+  color: white;
+}
+.bg_white {
+background: white;
+}
+
+.border_10 {
+  border: 10px solid white;
+}
+
+.border_5 {
+  border: 5px solid white;
+}
+
+.border_2 {
+  border: 2px solid white;
+}
+
+.padding_10 {
+  padding: 10px;
+}
+
+.border_radius {
+  border-radius: 10px;
+}
+
+/* /CLASSI UTILITY */
+
+body {
+  background-image: url('../img/woodpattern.png');
+  width: 70%;
+  height: 100vh;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* HEADER */
+.header-container {
+  margin-top: 20px;
+  background-image: url('../img/headernature.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
+  position: relative;
+}
+
+.logo_text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.navbar_ul {
+  text-align: center;
+  background-color: #504741;
+}
+
+.navbar_ul li {
+  display: inline;
+  margin: 0 10px;
+  line-height: 4;
+  color: white;
+}
+
+/* /HEADER */
+
+
+/* MAIN */
+
+
+main::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.box {
+  height: 100%;
+  line-height: 1.5;
+}
+
+.card {
+  padding: 15px;
+  margin: 10px 10px;
+}
+
+
+#cont20 {
+  width: 20%;
+}
+
+#cont30 {
+  width: 30%;
+}
+
+#cont50 {
+  width: 50%;
+}
+
+
+/* /MAIN */
+
+
+
+/* FOOTER */
+.footer_container {
+  height: 150px;
+  text-align: center;
+}
+
+.footer_text {
+  margin: auto;
+  width: 100%
+}
+
+hr {
+  margin-top: 10px;
+}
+
+.icon_section {
+  width: 100%;
+  height: 80px;
+  background: ;
+
+}
+
+i {
+  margin: 30px;
+  font-size: 40px;
+  color: black;
+}
+/* /FOOTER */
