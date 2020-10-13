@@ -44,6 +44,10 @@ background: white;
 .footer_color {
   color: rgba(0, 0, 0, 0.5);
 }
+
+.footer_color:hover {
+  color: #302A27;
+}
 /* /CLASSI UTILITY */
 
 body {
