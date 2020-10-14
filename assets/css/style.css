@@ -89,7 +89,7 @@ a {
 .navbar_ul li {
   display: inline;
   line-height: 4;
-  padding: 20px 0;
+  padding: 20px 10px;
   margin: 0 20px;
   color: white;
 }
@@ -118,7 +118,7 @@ main::after {
 
 .card {
   padding: 15px;
-  margin: 10px 10px;
+  margin: 15px 0px;
 }
 
 
@@ -131,7 +131,8 @@ main::after {
 }
 
 #cont50 {
-  width: 50%;
+  width: 40%;
+  margin:0 5%;
 }
 
 
