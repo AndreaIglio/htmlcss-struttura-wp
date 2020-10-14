@@ -48,6 +48,14 @@ background: white;
 .footer_color:hover {
   color: #302A27;
 }
+
+.mt_20 {
+  margin-top: 20px;
+}
+
+.mb_20 {
+  margin-bottom: 20px;
+}
 /* /CLASSI UTILITY */
 
 body {
@@ -64,7 +72,6 @@ a {
 
 /* HEADER */
 .header-container {
-  margin-top: 20px;
   background-image: url('../img/headernature.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -84,6 +91,7 @@ a {
 .navbar_ul {
   text-align: center;
   background-color: #504741;
+  display: block;
 }
 
 .navbar_ul li {
@@ -97,6 +105,7 @@ a {
 .navbar_ul li:hover {
   background: #302A27;
 }
+
 
 /* /HEADER */
 
@@ -147,7 +156,6 @@ main::after {
   height: 150px;
   text-align: center;
   position: relative;
-  margin-top: 30px;
 }
 
 .footer_text {
